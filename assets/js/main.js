@@ -225,6 +225,6 @@
 
 //Number facts Section
 function showNumberFactsItems() {
-    $("#number-item-facts").toggle(1500);
+    $("#number-item-facts").toggle();
 }
 

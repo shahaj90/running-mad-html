@@ -95,14 +95,27 @@
     <!-- End Header -->
     <!-- ======= Hero Section ======= -->
     <section class="d-flex align-items-center" id="hero">
-        <div class="container" data-aos="zoom-out" data-aos-delay="100">
-            <h1>
-                Welcome to
-                <span>
-                    Running Mad
-                </span>
-            </h1>
+
+        <div class="container-fluid" data-aos="zoom-out" data-aos-delay="100">
+            <div class="row">
+                <div class="col-md-9">
+                    <!-- <h1>
+                        Welcome to
+                        <span>
+                            Running Mad
+                        </span>
+                    </h1> -->
+                </div>
+                <div class="col-md-3" style="padding-top: 100px;">
+                    <div style="border: 2px solid #ff3600ff;">
+                        <iframe frameborder='0' height='450' scrolling='no'
+                            src='https://www.strava.com/clubs/573412/latest-rides/f8eab8256554b1b6eefefc1a73fcbce54b5b0055?show_rides=true'
+                            width='304'></iframe>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </section>
 
     <div class="d-flex">
@@ -112,7 +125,7 @@
     </div>
     <!-- End Hero -->
     <!-- ======= Steps Section ======= -->
-    <section class="steps-services" id="steps">
+    <!-- <section class="steps-services" id="steps">
         <div class="container" data-aos="fade-up">
             <div class="row">
                 <div class="col-sm-12">
@@ -200,7 +213,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
     <!-- End Steps -->
     <main id="main">
 
@@ -376,7 +389,7 @@
                     <!-- Title image -->
                     <div class="col-sm-12 text-center" id="number-fact-title-image" data-aos="fade-up">
                         <!-- Item append button -->
-                        <button type="button" class="btn btn-dark" onclick="showNumberFactsItems()">
+                        <button type="button" class="btn btn-secondary" onclick="showNumberFactsItems()">
                             Click here to see
                         </button>
                         <img alt="" src="assets/img/number-facts/number-facts-title.png" style="width:100%;">
@@ -417,26 +430,26 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="footer-top">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 footer-contact">
+                    <!-- Site info & social links -->
+                    <div class="col-lg-3 col-md-6 offset-md-1 mr-md-1 footer-contact">
                         <h3>
-                            <img alt="Cinque Terre" class="rounded" src="assets/img/logo.jpg" width="200" />
+                            <img alt="Cinque Terre" class="rounded" src="assets/img/logo-white.png" width="200" />
                         </h3>
                         <p>
                             Talking to us has become even more easier!
                         </p>
-                        <p>
+                        <p style="margin-top: 10px;">
                             Get in touch with us via
                             <span style="color: #33de08;font-weight: bold;">
                                 WhatsApp
                             </span>
-                            for a more
-                            personal and direct
-                            conversation or tap one
-                            of our social media icons
+                            for a more <br> personal and direct conversation or tap one of <br> our social media
+                            icons
                             to connect with us.
                         </p>
+
                         <div style="margin-top: 10px;">
                             <a href="#">
                                 <img alt="Cinque Terre" class="rounded" src="assets/img/social-icons/Artboard_1.png"
@@ -474,7 +487,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 footer-links">
+                    <!-- Quick links -->
+                    <div class="col-lg-3 col-md-6 ml-md-5 py-lg-5 footer-links">
                         <h4>
                             Quick Links
                         </h4>
@@ -530,28 +544,36 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-4 col-md-6" style="background: #FFFFFF;border-radius: 5px; max-height: 300px;">
-                        <p style="text-align: center;margin-top: 15px;">
-                            <img alt="Cinque Terre" class="rounded center" src="assets/img/icons/Newsletter-Icon.png"
-                                width="150" />
-                            <span
-                                style="text-transform: uppercase;text-align: center;display: block;font-weight: bold;">
-                                Subscribe
-                            </span>
-                            <span style="display: block;">
-                                Join our subscribers list to get the latest news, updates and special offers
-                            </span>
-                        </p>
-                        <p>
-                        <div class="input-group mb-3">
-                            <input class="form-control" placeholder="Enter your email" type="text" />
-                            <div class="input-group-append">
-                                <button class="btn btn-danger" type="submit">
-                                    Subscribe
-                                </button>
+                    <!-- Subscription -->
+                    <div class="col-lg-4 col-md-6" style="padding: 15px 0 15px 0;">
+                        <div class="col-md-11">
+                            <div class="py-lg-4">
+                                <div style="background: #FFFFFF;border-radius: 5px; max-height: 230px; padding: 20px;">
+                                    <p style="text-align: center;margin-top: 0px;">
+                                        <img alt="Cinque Terre" class="rounded center"
+                                            src="assets/img/icons/Newsletter-Icon.png" width="90" />
+                                        <span
+                                            style="text-transform: uppercase;text-align: center;display: block;color: black; margin-bottom: 5px;">
+                                            Subscribe
+                                        </span>
+                                        <span style="display: block;line-height: 15px;color: black;">
+                                            Join our subscribers list to get the latest news, updates and special offers
+                                        </span>
+                                    </p>
+                                    <p>
+                                    <div class="input-group mb-3">
+                                        <input class="form-control" placeholder="Enter your email" type="text" />
+                                        <div class="input-group-append">
+                                            <button class="btn btn-danger" type="submit">
+                                                Subscribe
+                                            </button>
+                                        </div>
+                                    </div>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        </p>
+
                     </div>
                 </div>
             </div>
