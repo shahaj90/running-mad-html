@@ -831,8 +831,28 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# About Us
 --------------------------------------------------------------*/
+
+.about-us {
+  border: 2px solid #231f20ff;
+  margin: -40px 80px 0px 80px;
+  color: #000000ff;
+}
+@media (max-width: 768px) {
+  .about-us {
+    border: 0;
+    margin: 0px 20px 0px 20px;
+  }
+}
+.about-us-text {
+  margin-top: 25px;
+}
+@media (max-width: 768px) {
+  .about-us-text {
+    margin: 0px;
+  }
+}
 
 .about .content h3 {
   font-weight: 600;
