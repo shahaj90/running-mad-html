@@ -800,6 +800,7 @@ section {
   left: 50%;
   text-align: center;
   font-weight: bold;
+  font-style: italic;
   font-size: 50px;
   color: #ffffff;
   transform: translate(-50%, -50%);
@@ -809,6 +810,7 @@ section {
   top: 75%;
   left: 50%;
   text-align: center;
+  font-style: italic;
   color: #ffffff;
   transform: translate(-50%, -50%);
 }
@@ -1701,7 +1703,7 @@ section {
   padding-right: 2px;
   color: #ff3600;
   font-size: 18px;
-  line-height: 1;
+  line-height: 1.4;
 }
 #footer .footer-top .footer-links ul li {
   padding: 5px 0;
