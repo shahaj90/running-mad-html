@@ -559,7 +559,7 @@ a:hover {
   position: absolute;
   background-color: #ffffff;
   border: 1px solid #000000;
-  color: #ff7a00;
+  color: #ff3600ff;
   border-radius: 50%;
   width: 90px;
   height: 90px;
@@ -755,13 +755,13 @@ section {
 /*--------------------------------------------------------------
 # More Challenges
 --------------------------------------------------------------*/
+
 .section-title .more-challenges-title {
   text-transform: uppercase;
-  background: red;
+  background: #ff3600ff;
   color: white;
   padding: 10px;
-  font-weight: bold;
-  font-family: Montserrat;
+  font-weight: 900;
   font-style: italic;
 }
 
