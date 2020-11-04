@@ -389,6 +389,16 @@ a:hover {
     padding-top: 58px;
   }
 }
+
+#strava-btn {
+  position: absolute;
+  top: 21%;
+  left: 43%;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 13px;
+}
 #hero iframe {
   border: 2px solid black;
   margin-top: 5px;
