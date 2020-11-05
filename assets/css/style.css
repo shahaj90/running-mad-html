@@ -765,6 +765,57 @@ section {
   font-style: italic;
 }
 
+#btn-more-info {
+  border-radius: 0px;
+  font-size: 13px;
+  padding: 5px;
+  line-height: 2.5;
+  border-top: 2px solid gray;
+  background-color: #ffffffff;
+  text-transform: uppercase;
+}
+#btn-enter-now {
+  border-radius: 0px;
+  font-size: 13px;
+  padding: 5px;
+  line-height: 2.5;
+  border-top: 2px solid gray;
+  background-color: #404041ff;
+  color: #ffffffff;
+  text-transform: uppercase;
+}
+#btn-submit-evidence {
+  border-radius: 0px;
+  font-size: 13px;
+  padding: 5px;
+  line-height: 2.5;
+  border-top: 2px solid gray;
+  background-color: #ee3e23ff;
+  color: #ffffffff;
+  text-transform: uppercase;
+}
+#btn-download-virtual-bib {
+  border-radius: 0px;
+  font-size: 18px;
+  padding: 5px;
+  line-height: 1.1;
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  background-color: #e0ff9cff;
+  color: #000000ff;
+  text-transform: uppercase;
+}
+#btn-check-leader-board {
+  border-radius: 0px;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 1.1;
+  border-top: 2px solid gray;
+  background-color: #c0fff7ff;
+  color: #000000ff;
+  text-transform: uppercase;
+}
+
 /*--------------------------------------------------------------
 # Number facts
 --------------------------------------------------------------*/
