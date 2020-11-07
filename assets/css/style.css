@@ -815,6 +815,16 @@ section {
   color: #000000ff;
   text-transform: uppercase;
 }
+#btn-donate {
+  border-radius: 0px;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 1.1;
+  border-top: 2px solid gray;
+  background-color: #7c00ffff;
+  color: #ffffffff;
+  text-transform: uppercase;
+}
 
 /*--------------------------------------------------------------
 # Number facts
