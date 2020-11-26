@@ -228,3 +228,8 @@ function showNumberFactsItems() {
     $("#number-item-facts").toggle();
 }
 
+//Image preview
+function imagePreview() {
+    $('#imagePreview').modal('show');
+}
+
