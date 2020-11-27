@@ -233,3 +233,8 @@ function imagePreview() {
     $('#imagePreview').modal('show');
 }
 
+//Image preview
+function videoPreview() {
+    $('#videoPreview').modal('show');
+}
+
